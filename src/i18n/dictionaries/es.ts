@@ -187,8 +187,4 @@ export const es: Dictionary = {
       "Vamos a lo concreto. Escribe el objetivo en una frase, di para quién es y elige la restricción que más importa. Con eso puedo ayudarte a esbozar un esquema, un resumen o un plan.",
   },
   chats,
-  notFound: {
-    title: "Esta página no existe.",
-    back: "Volver a Vela",
-  },
 };

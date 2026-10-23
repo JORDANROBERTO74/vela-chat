@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { ImageResponse } from "next/og";
+import { site } from "@/config/site";
 import { isLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 
@@ -120,7 +121,7 @@ export default async function OpengraphImage({
         </div>
 
         <div style={{ display: "flex", fontSize: 24, color: "#6f6a60" }}>
-          vela.chat
+          {site.domain}
         </div>
       </div>
     ),

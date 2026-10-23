@@ -1,4 +1,4 @@
-const FALLBACK_URL = "https://vela-chat.vercel.app";
+const FALLBACK_URL = "https://vela-chat-theta.vercel.app";
 
 function resolveSiteUrl(): string {
   const value = process.env.NEXT_PUBLIC_SITE_URL?.trim();
@@ -7,12 +7,6 @@ function resolveSiteUrl(): string {
 
 export const site = {
   name: "Vela",
-  legalName: "Vela Labs",
   domain: "vela.chat",
   url: resolveSiteUrl(),
-  email: "hello@vela.chat",
-  social: {
-    x: "https://x.com/velachat",
-    github: "https://github.com/velachat",
-  },
 } as const;

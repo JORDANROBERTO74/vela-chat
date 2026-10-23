@@ -91,9 +91,9 @@ The app uses the default Vercel Next.js preset; no `vercel.json` is required.
 2. Set `NEXT_PUBLIC_SITE_URL` to the production origin.
 3. Deploy, then verify `/{en,es}`, `/sitemap.xml`, `/robots.txt`, both Open Graph images and a full send, reload and reset pass.
 
-`NEXT_PUBLIC_SITE_URL` drives canonical links, `hreflang`, `sitemap.xml`, `robots.txt` and Open Graph URLs. When it is unset, the code falls back to `https://vela-chat.vercel.app`; the public demo sets it to its Vercel origin.
+`NEXT_PUBLIC_SITE_URL` drives canonical links, `hreflang`, `sitemap.xml`, `robots.txt` and Open Graph URLs. When it is unset, the code falls back to `https://vela-chat-theta.vercel.app`; the public demo sets it to its Vercel origin.
 
-Live demo: <https://vela-chat.vercel.app>
+Live demo: <https://vela-chat-theta.vercel.app>
 
 ## Status and scope
 

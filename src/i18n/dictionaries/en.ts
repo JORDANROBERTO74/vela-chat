@@ -207,10 +207,6 @@ export const en = {
       "Let us make it concrete. Write the goal in one sentence, name who it is for, and pick the constraint that matters most. From there I can help you draft an outline, a summary or a plan.",
   },
   chats,
-  notFound: {
-    title: "This page does not exist.",
-    back: "Back to Vela",
-  },
 };
 
 export type Dictionary = typeof en;
