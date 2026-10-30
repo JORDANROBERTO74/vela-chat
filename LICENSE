@@ -1,11 +1,14 @@
-Copyright (c) 2026 Vela Labs.
-
-All rights reserved.
+Copyright (c) 2026 Roberto Jordán. All rights reserved.
 
 This source code and the brand assets in this repository are proprietary.
 No permission is granted to copy, modify, distribute, sublicense or use this
 material, in whole or in part, without prior written permission from the
 copyright holder.
 
-Third-party dependencies remain under their own licenses, as listed in
-`package.json` and their respective packages.
+"Vela" is a fictional project name used for demonstration purposes and
+does not represent a legal entity.
+
+Third-party dependencies remain under their own licenses.
+
+The bundled font instances in `src/assets` remain under the SIL Open Font
+License 1.1.
